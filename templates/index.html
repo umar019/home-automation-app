@@ -18,7 +18,7 @@
         <div id="body" class="container-fluid">
             <div id="header" class="row">
                 <!--Header - Date-->
-                <h1 class="col">{{ date }}</h1>
+                <h2 class="col">{{ date }}</h2>
             </div>
             
             <div class="row align-items-center">
@@ -38,9 +38,9 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <p><i class="upcoming-weather fas fa-cloud-sun"></i>Tomorrow</p>
-                                <p><i class="upcoming-weather fas fa-cloud-sun-rain"></i>Saturday</p>
-                                <p><i class="upcoming-weather fas fa-cloud-showers-heavy"></i>Sunday</p>
+                                <p><i class="upcoming-weather fas fa-cloud-sun">Tomorrow</i></p>
+                                <p><i class="upcoming-weather fas fa-cloud-sun-rain">Saturday</i></p>
+                                <p><i class="upcoming-weather fas fa-cloud-showers-heavy">Sunday</i></p>
                             </div>
                         </div>
                     </div>
@@ -184,7 +184,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title">Modal title</h5>
+                                    <h4 class="modal-title">Modal title</h4>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
@@ -238,6 +238,7 @@
                                             <label for="roomLocation">Room Location</label>
                                             <select class="form-control" id="roomLocation" name="location">
                                                 <option>Living Room</option>
+                                                <option>Wash Room</option>
                                                 <option>Kitchen</option>
                                                 <option>Dining Room</option>
                                                 <option>Basement</option>
